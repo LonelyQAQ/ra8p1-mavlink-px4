@@ -1,0 +1,27 @@
+# MAVLink C library (fetch with scripts/fetch_mavlink.sh)
+src/mavlink/
+
+# Keil MDK build artifacts
+Objects/
+Listings/
+*.hex
+*.axf
+*.map
+*.lst
+*.o
+*.d
+*.crf
+*.dep
+*.lnp
+*.sbd
+*.htm
+*.uvguix.*
+RTE/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS noise
+.DS_Store
+Thumbs.db

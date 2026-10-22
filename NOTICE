@@ -1,0 +1,15 @@
+RA8P1 MAVLink <-> PX4/Pixhawk
+Copyright 2026 The RA8P1 MAVLink companion-computer authors
+
+This product uses the MAVLink C library (c_library_v2), which is not
+vendored in this repository. It is fetched by scripts/fetch_mavlink.sh
+from https://github.com/mavlink/c_library_v2 and is licensed under the
+MIT License.
+
+host/fake_fc.py depends on pymavlink (https://github.com/ArduPilot/pymavlink),
+licensed under the MIT License.
+
+The Renesas FSP (Flexible Software Package), including the SCI_B UART
+driver used here, is Copyright Renesas Electronics Corporation and is
+distributed with FSP under its own licence; it is not included in this
+repository.
